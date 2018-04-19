@@ -21,7 +21,7 @@ facingMode: { ideal: "environment" }
 Android的微信和QQ可以实现，ios的safari>=11可以，微信和QQ不行。  
 微信和QQ默认使用前置摄像头，所以我测试时使用的是对称图片。  
 测试网址：https://www.webapp.baoxizhao.com/three.js/examples/dev.html  
-测试图片：![pattern-kanji.png](/images/pattern-kanji.png)   
+测试图片：![pattern-kanji.png](./images/pattern-kanji.png)   
 不过该网址我不定时用来测试，所以偶尔会有问题。
 
 ### 如何替换模型文件？  
@@ -103,7 +103,7 @@ dev.html中：
 	})
 ```
 可以看出 examples/marker-training/examples/pattern-files/pattern-hiro.patt 就是pattern文件的相对路径，对应的图片路径：AR.js-master\three.js\examples\marker-training\examples\inner-images\  
-如下图所示：![pattern-image](/images/pattern-image.jpg)    
+如下图所示：![pattern-image](./images/pattern-image.jpg)    
 使用上面的图片作marker只需要在代码中替换对应的patt文件名即可，也可以使用自定义图片，需要在浏览器中打开http://localhost:8080/three.js/examples/marker-training/examples/generator.html，上传自己图片，生成对应的pat，放到对应目录下，然后修改patt文件名操作。
    
     
